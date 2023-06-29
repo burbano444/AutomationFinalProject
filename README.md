@@ -1,2 +1,8 @@
 # AutomationFinalProject
-In this repository I push the final project of the training about Automation by Endava
+How to use:
+
+
+run: "npn init" command in root address for configuration
+
+
+run: "npx cypress open" command in root address to start the product

@@ -1,0 +1,7 @@
+GHERKIN:
+Feature: Burguer button of header
+Escenario: Open the burguer button
+GIVEN I need to search a products by Top Categories
+AND I have any page opened
+WHEN I click in the burger button
+THEN I can verify that shows a pop up with the list of Top Categories

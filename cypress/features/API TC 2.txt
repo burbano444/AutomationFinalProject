@@ -1,0 +1,11 @@
+GHERKIN:
+Feature: Pokemon API
+Escenario: Boddy good assertion
+GIVEN I have an Pokemon API
+AND I want to kno the height of especific <pokemon>
+WHEN I do the request of the body height
+THEN I obtain the respective body height of pokemon
+
+EXAMPLES:
+|   POKEMON    |
+|   chikorita  |<-

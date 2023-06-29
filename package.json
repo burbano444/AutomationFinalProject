@@ -1,0 +1,22 @@
+{
+  "name": "automationfinalproject",
+  "version": "1.0.0",
+  "description": "In this repository I push the final project of the training about Automation by Endava",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burbano444/AutomationFinalProject.git"
+  },
+  "author": "Daniel Burbano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burbano444/AutomationFinalProject/issues"
+  },
+  "homepage": "https://github.com/burbano444/AutomationFinalProject#readme",
+  "dependencies": {
+    "cypress": "^12.16.0"
+  }
+}

@@ -1,0 +1,8 @@
+GHERKIN:
+Feature: Burguer button of header
+Escenario: Close the burguer button
+GIVEN I need to exit by Top Categories pop up
+AND I have any page opened
+AND I have the Top Categories pop up open
+WHEN I click in the X mark 
+THEN I can verify that the pop up dissapear

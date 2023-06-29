@@ -1,0 +1,11 @@
+GHERKIN:
+Feature: Pokemon API
+Escenario: Duration assertion 
+GIVEN I have an Pokemon API
+AND I want to GET a pokemon
+WHEN I do a correct GET request of any pokemon
+THEN I verify that I obtain the results in less of 120 msc
+
+EXAMPLES:
+|   POKEMON    |
+|   chikorita  |<-

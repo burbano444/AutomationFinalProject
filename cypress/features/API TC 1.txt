@@ -1,0 +1,14 @@
+GHERKIN:
+Feature: Pokemon API
+Escenario: Status good assertion 
+GIVEN I have an Pokemon API
+AND I want to GET a pokemon
+WHEN I do a correct GET request of any pokemon
+THEN I obtain a 200 status result
+
+Feature: Pokemon API
+Escenario: Status bad assertion
+GIVEN I have an Pokemon API
+AND I want to GET a pokemon
+WHEN I do a incorrect GET request of any not pokemon
+THEN I obtain a 404 status result

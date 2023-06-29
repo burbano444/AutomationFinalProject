@@ -1,0 +1,15 @@
+GHERKIN:
+Feature: Ecomerce playground Searchbar
+Escenario: Searching products in the bar
+GIVEN I need to search a <product>
+AND I have homepage opened
+AND I write the product in the searchbar
+WHEN I click in the search button
+THEN I can verify its open a new page with the product and endpoint
+
+EXAMPLES:
+|   PRODUCTS    |
+|   iphone      |<-
+|   fridge      |
+|   smartwatch  |
+|   TV          |

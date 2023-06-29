@@ -1,0 +1,15 @@
+{
+    "topCollection":{
+        "firstElement":0,
+        "secondElement":1,
+        "thirdElement":2,
+        "fourthElement":3
+    },
+
+    "product":{
+        "product1":"iphone",
+        "product2":"fridge",
+        "product3":"smartwatch",
+        "product4":"TV"
+    }
+}

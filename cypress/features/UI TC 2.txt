@@ -1,0 +1,14 @@
+GHERKIN:
+Feature: Ecomerce playground comparing
+Escenario: Pop up of add products in comparing list
+GIVEN I need to compare <N> products
+AND I have homepage opened
+WHEN I click in the compare button of the products
+THEN I can verify that the pop up appear in the page
+
+EXAMPLES:
+|   N  |
+|   1  |
+|   2  |
+|   3  |
+|   4  |<-

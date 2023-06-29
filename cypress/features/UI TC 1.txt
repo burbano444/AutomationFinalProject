@@ -1,0 +1,14 @@
+GHERKIN:
+Feature: Ecomerce playground homepage
+Escenario: Home page loads
+GIVEN I need to open the page
+WHEN I open the url in a browser
+THEN I verify that the page loads
+
+GHERKIN:
+Feature: Ecomerce playground comparepage
+Escenario: Compare page loads
+GIVEN I need to compare products
+AND I have homepage opened
+WHEN I click in the compare button 
+THEN I verify that the compare page loads
